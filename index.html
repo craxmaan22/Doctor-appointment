@@ -11,31 +11,41 @@
 <body>
   <h4>Book your appointmen here!</h4>  
 <div class="row">
-<div class="col">
-<input type="text" class="form-control" placeholder="First name" aria-label="First name">
+  <div id="message" class="hidden">Only Monday is available to choose</div>
+  <form > 
+        <div class="col">
+           <label  class="label">Firstname:</label>
+           <input type="text" id="firstname" class="form-control" placeholder="First name" aria-label="First name">
 
-</div>
-<br>
-<div class="col">
-<input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-      <br>
-      <br>
-<input id="text" class="form-control" placeholder="Enter your email" aria-label="Email">
-<br>    
-<br>
-<form aria-roledescription="aria-label">
-<label for="appointmen">Date:</label>
-<input type="date" id="appointmen" name="Appointmen">
-<input type="submit">
-<br>
-<label for="subject"></label>
-<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        </div>
+        
+         <div class="col">
+          <label class="label">Lastname:</label>
+           <input type="text" id="lastname" class="form-control" placeholder="Last name" aria-label="Last name">
+         </div>
+        <div class="col">   
+          <label class="label">Email:</label>  
+        <input id="email" class="form-control" placeholder="Enter your email" aria-label="Email">
+        </div>
+        <div class="col">  
+        <label class="label">Date:</label>
+        <input type="date"  class="form-control" id="appointmen" name="Appointmen">
+       
+        </div>
+        <div class="col">  
+        <label class="label">Comment</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        </div>
+        <div class="col">   
+             <input type="button" onclick="formsubmit()"  class="button" value="Submit">
+        </div>
+          </form>
+          </div>
 
-<input type="submit" value="Submit">
+          <div id="result" class="row hidden">
 
-  </form>
-  </div>
-  </div>
+          </div>
+  
 </body>
 
 
