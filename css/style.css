@@ -5,11 +5,9 @@ body {
   align: center;
 }
 body {
-  background-color: rgba(230, 173, 173, 0.193);
+  background-color: lightgreen;
 }
-body {
-  background-image: url("image.jpg");
-}
+
 .label {
  
   width: 100px;
@@ -36,3 +34,14 @@ textarea {
 .hidden{
   display:none;
 }
+input {
+  color: blue;
+  float: center;
+ 
+}
+.button {
+  float: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
