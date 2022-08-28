@@ -19,7 +19,7 @@ Download the code and unzip into any folder in your desktop.
 Open index.html in any browser.
 Known bugs:
 There are no bugs.
-
+* gh.pages: https://craxmaan22.github.io/Doctor-appointment/
 
 License information with a copyright and date:
 Distributed under the MIT License. See license.md for more information.
